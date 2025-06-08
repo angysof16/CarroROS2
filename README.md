@@ -91,3 +91,13 @@ Este comportamiento permite al robot navegar de forma autónoma evitando colisio
 ## Desarrollo
 
 Este proyecto fue desarrollado como parte de un curso de robótica usando ROS2. Demuestra conceptos fundamentales como comunicación entre nodos, uso de parámetros, publicación y suscripción a tópicos, y control en tiempo real de robots móviles.
+
+## Autores
+
+Este proyecto fue desarrollado por un equipo de 4 estudiantes:
+
+- **Sofia Guerra Jiménez** - sofiaguerraj@javeriana.edu.co
+- **Juan Antonio Mora Páez** - ja-mora@javeriana.edu.co
+- **Alexander Novoa Sánchez** - alexander-novoa@javeriana.edu.co
+- **Juan Felipe Parra Basto** - jf-parra@javeriana.edu.co
+

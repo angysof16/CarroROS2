@@ -1,0 +1,22 @@
+[0.442s] Invoking command in '/home/alex/ras2_ws/build/ras_example_pkg_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example_pkg_2 -- -j16 -l16
+[0.544s] [100%] Built target ras_node_cpp
+[0.570s] Invoked command in '/home/alex/ras2_ws/build/ras_example_pkg_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example_pkg_2 -- -j16 -l16
+[0.572s] Invoking command in '/home/alex/ras2_ws/build/ras_example_pkg_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example_pkg_2
+[0.587s] -- Install configuration: ""
+[0.588s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/lib/ras_example_pkg_2/ras_node_cpp
+[0.588s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/package_run_dependencies/ras_example_pkg_2
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/parent_prefix_path/ras_example_pkg_2
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/ament_prefix_path.dsv
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/path.sh
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/path.dsv
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.bash
+[0.589s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.sh
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.zsh
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.dsv
+[0.590s] -- Installing: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.dsv
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/packages/ras_example_pkg_2
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/cmake/ras_example_pkg_2Config.cmake
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/cmake/ras_example_pkg_2Config-version.cmake
+[0.590s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.xml
+[0.594s] Invoked command in '/home/alex/ras2_ws/build/ras_example_pkg_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example_pkg_2

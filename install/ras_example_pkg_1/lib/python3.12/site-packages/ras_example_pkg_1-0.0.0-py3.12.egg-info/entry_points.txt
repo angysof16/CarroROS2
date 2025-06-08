@@ -1,0 +1,2 @@
+[console_scripts]
+ras_node = ras_example_pkg_1.ras_node:main

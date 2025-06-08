@@ -1,0 +1,20 @@
+[1.181s] Invoking command in '/home/alex/ras2_ws/build/ras_example2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example2 -- -j16 -l16
+[1.571s] Invoked command in '/home/alex/ras2_ws/build/ras_example2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example2 -- -j16 -l16
+[1.594s] Invoking command in '/home/alex/ras2_ws/build/ras_example2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example2
+[1.609s] -- Install configuration: ""
+[1.611s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ament_index/resource_index/package_run_dependencies/ras_example2
+[1.612s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ament_index/resource_index/parent_prefix_path/ras_example2
+[1.612s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/environment/ament_prefix_path.sh
+[1.612s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/environment/ament_prefix_path.dsv
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/environment/path.sh
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/environment/path.dsv
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/local_setup.bash
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/local_setup.sh
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/local_setup.zsh
+[1.613s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/local_setup.dsv
+[1.614s] -- Installing: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.dsv
+[1.614s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ament_index/resource_index/packages/ras_example2
+[1.614s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/cmake/ras_example2Config.cmake
+[1.614s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/cmake/ras_example2Config-version.cmake
+[1.616s] -- Up-to-date: /home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.xml
+[1.630s] Invoked command in '/home/alex/ras2_ws/build/ras_example2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example2

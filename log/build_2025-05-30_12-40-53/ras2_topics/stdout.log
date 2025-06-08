@@ -1,0 +1,25 @@
+running egg_info
+creating ../../build/ras2_topics/ras_topics.egg-info
+writing ../../build/ras2_topics/ras_topics.egg-info/PKG-INFO
+writing dependency_links to ../../build/ras2_topics/ras_topics.egg-info/dependency_links.txt
+writing entry points to ../../build/ras2_topics/ras_topics.egg-info/entry_points.txt
+writing requirements to ../../build/ras2_topics/ras_topics.egg-info/requires.txt
+writing top-level names to ../../build/ras2_topics/ras_topics.egg-info/top_level.txt
+writing manifest file '../../build/ras2_topics/ras_topics.egg-info/SOURCES.txt'
+reading manifest file '../../build/ras2_topics/ras_topics.egg-info/SOURCES.txt'
+writing manifest file '../../build/ras2_topics/ras_topics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alex/ras2_ws/build/ras2_topics/build
+creating /home/alex/ras2_ws/build/ras2_topics/build/lib
+creating /home/alex/ras2_ws/build/ras2_topics/build/lib/ras2_topics
+copying ras2_topics/__init__.py -> /home/alex/ras2_ws/build/ras2_topics/build/lib/ras2_topics
+copying ras2_topics/publisher.py -> /home/alex/ras2_ws/build/ras2_topics/build/lib/ras2_topics
+running install
+running install_lib
+creating /home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages/ras2_topics
+copying /home/alex/ras2_ws/build/ras2_topics/build/lib/ras2_topics/__init__.py -> /home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages/ras2_topics
+copying /home/alex/ras2_ws/build/ras2_topics/build/lib/ras2_topics/publisher.py -> /home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages/ras2_topics
+byte-compiling /home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages/ras2_topics/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages/ras2_topics/publisher.py to publisher.cpython-312.pyc
+running install_data

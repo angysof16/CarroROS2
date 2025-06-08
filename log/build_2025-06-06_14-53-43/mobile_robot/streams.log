@@ -1,0 +1,26 @@
+[1.343s] Invoking command in '/home/alex/ras2_ws/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/alex/ras2_ws/build/mobile_robot/build install --record /home/alex/ras2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data
+[1.575s] running egg_info
+[1.591s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[1.591s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[1.592s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[1.592s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[1.592s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[1.626s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.627s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.627s] running build
+[1.628s] running build_py
+[1.628s] copying mobile_robot/wifi_bridge.py -> /home/alex/ras2_ws/build/mobile_robot/build/lib/mobile_robot
+[1.628s] running install
+[1.633s] running install_lib
+[1.650s] copying /home/alex/ras2_ws/build/mobile_robot/build/lib/mobile_robot/wifi_bridge.py -> /home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[1.651s] byte-compiling /home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/wifi_bridge.py to wifi_bridge.cpython-312.pyc
+[1.652s] running install_data
+[1.652s] copying launch/robot_launch.py -> /home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/launch
+[1.652s] running install_egg_info
+[1.670s] removing '/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.1-py3.12.egg-info' (and everything under it)
+[1.670s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.1-py3.12.egg-info
+[1.671s] running install_scripts
+[1.784s] Installing obstacle_avoider script to /home/alex/ras2_ws/install/mobile_robot/lib/mobile_robot
+[1.784s] Installing wifi_bridge script to /home/alex/ras2_ws/install/mobile_robot/lib/mobile_robot
+[1.784s] writing list of installed files to '/home/alex/ras2_ws/build/mobile_robot/install.log'
+[1.854s] Invoked command in '/home/alex/ras2_ws/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/alex/ras2_ws/build/mobile_robot/build install --record /home/alex/ras2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data

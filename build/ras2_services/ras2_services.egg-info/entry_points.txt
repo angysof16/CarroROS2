@@ -1,0 +1,3 @@
+[console_scripts]
+client = ras2_services.client:main
+server = ras2_services.server:main

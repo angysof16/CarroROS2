@@ -1,0 +1,535 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.229s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71c89f96f380>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c89f96f050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c89f96f050>>, mixin_verb=('build',))
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.332s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alex/ras2_ws'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/include) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/lib) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/src) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_ros2_driver_tcp/test) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot' with type 'ros.ament_python' and name 'mobile_robot'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_services) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras2_services' with type 'ros.ament_python' and name 'ras2_services'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras2_topics) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras2_topics' with type 'ros.ament_python' and name 'ras2_topics'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_example' with type 'ros.ament_cmake' and name 'ras_example'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example2) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_example2' with type 'ros.ament_cmake' and name 'ras_example2'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_1) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_example_pkg_1' with type 'ros.ament_python' and name 'ras_example_pkg_1'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_example_pkg_2) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_example_pkg_2' with type 'ros.ament_cmake' and name 'ras_example_pkg_2'
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.459s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/alex/ras2_ws/install
+[0.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/mobile_robot', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'ras2_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras2_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras2_services', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras2_services', 'symlink_install': False, 'test_result_base': None}
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_target' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'ras2_topics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'ras2_topics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras2_topics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras2_topics', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras2_topics', 'symlink_install': False, 'test_result_base': None}
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_target' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.538s] DEBUG:colcon.colcon_core.verb:Building package 'ras_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras_example', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras_example', 'symlink_install': False, 'test_result_base': None}
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_target' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_clean_first' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'cmake_force_configure' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'ament_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.539s] DEBUG:colcon.colcon_core.verb:Building package 'ras_example2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras_example2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras_example2', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras_example2', 'symlink_install': False, 'test_result_base': None}
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_target' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.539s] DEBUG:colcon.colcon_core.verb:Building package 'ras_example_pkg_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras_example_pkg_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras_example_pkg_1', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras_example_pkg_1', 'symlink_install': False, 'test_result_base': None}
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'ras_example_pkg_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'ras_example_pkg_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ras2_ws/build/ras_example_pkg_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ras2_ws/install/ras_example_pkg_2', 'merge_install': False, 'path': '/home/alex/ras2_ws/src/ras_example_pkg_2', 'symlink_install': False, 'test_result_base': None}
+[0.540s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ras2_ws/src/mobile_robot' with build type 'ament_python'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'ament_prefix_path')
+[0.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.559s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ras2_ws/src/ras2_services' with build type 'ament_python'
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras2_services', 'ament_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/ament_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/ament_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/ament_prefix_path.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.569s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ras2_ws/src/ras2_topics' with build type 'ament_python'
+[0.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras2_topics', 'ament_prefix_path')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/ament_prefix_path.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/ament_prefix_path.dsv'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/ament_prefix_path.sh'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ras2_ws/src/ras_example' with build type 'ament_cmake'
+[0.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ras2_ws/src/ras_example'
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.585s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ras2_ws/src/ras_example2' with build type 'ament_cmake'
+[0.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ras2_ws/src/ras_example2'
+[0.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.592s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ras2_ws/src/ras_example_pkg_1' with build type 'ament_python'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example_pkg_1', 'ament_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/ament_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/ament_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/ament_prefix_path.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ras2_ws/src/ras_example_pkg_2' with build type 'ament_cmake'
+[0.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ras2_ws/src/ras_example_pkg_2'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.975s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ras2_ws/src/mobile_robot'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.341s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ras2_ws/src/ras2_services'
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.723s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ras2_ws/src/ras2_topics'
+[1.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example -- -j16 -l16
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example2 -- -j16 -l16
+[2.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ras2_ws/src/ras_example_pkg_1'
+[2.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example -- -j16 -l16
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example
+[2.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example2 -- -j16 -l16
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example2
+[2.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example_pkg_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example_pkg_2 -- -j16 -l16
+[2.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example2)
+[2.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example2
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2' for CMake module files
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2' for CMake config files
+[2.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example2', 'cmake_prefix_path')
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.ps1'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.sh'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/bin'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/lib/pkgconfig/ras_example2.pc'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/lib/python3.12/site-packages'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/bin'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.ps1'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.dsv'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.sh'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.bash'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.zsh'
+[2.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example2/share/colcon-core/packages/ras_example2)
+[2.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example2)
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2' for CMake module files
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2' for CMake config files
+[2.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example2', 'cmake_prefix_path')
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.ps1'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.dsv'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/hook/cmake_prefix_path.sh'
+[2.233s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/bin'
+[2.233s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/lib/pkgconfig/ras_example2.pc'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/lib/python3.12/site-packages'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example2/bin'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.ps1'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.dsv'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.bash'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example2/share/ras_example2/package.zsh'
+[2.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example2/share/colcon-core/packages/ras_example2)
+[2.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example)
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example' for CMake module files
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example' for CMake config files
+[2.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example', 'cmake_prefix_path')
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/bin'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/lib/pkgconfig/ras_example.pc'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/lib/python3.12/site-packages'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/bin'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.sh'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.bash'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.zsh'
+[2.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example/share/colcon-core/packages/ras_example)
+[2.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example)
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example' for CMake module files
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example' for CMake config files
+[2.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example', 'cmake_prefix_path')
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example/share/ras_example/hook/cmake_prefix_path.sh'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/bin'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/lib/pkgconfig/ras_example.pc'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/lib/python3.12/site-packages'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example/bin'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.dsv'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.sh'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.bash'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example/share/ras_example/package.zsh'
+[2.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example/share/colcon-core/packages/ras_example)
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example_pkg_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alex/ras2_ws/build/ras_example_pkg_2 -- -j16 -l16
+[2.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/build/ras_example_pkg_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example_pkg_2
+[2.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example_pkg_2)
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2' for CMake module files
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/build/ras_example_pkg_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ras2_ws/install/ras_example_pkg_1:/home/alex/ras2_ws/install/ras2_topics:/home/alex/ras2_ws/install/ras2_services:/home/alex/ras2_ws/install/mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alex/ras2_ws/build/ras_example_pkg_2
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2' for CMake config files
+[2.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example_pkg_2', 'cmake_prefix_path')
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.ps1'
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.dsv'
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.sh'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib/pkgconfig/ras_example_pkg_2.pc'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib/python3.12/site-packages'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/bin'
+[2.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.ps1'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.dsv'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.sh'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.bash'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.zsh'
+[2.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example_pkg_2/share/colcon-core/packages/ras_example_pkg_2)
+[2.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example_pkg_2)
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2' for CMake module files
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2' for CMake config files
+[2.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example_pkg_2', 'cmake_prefix_path')
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.ps1'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.dsv'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/hook/cmake_prefix_path.sh'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/bin'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib/pkgconfig/ras_example_pkg_2.pc'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/lib/python3.12/site-packages'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_2/bin'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.dsv'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.sh'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.bash'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.zsh'
+[2.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example_pkg_2/share/colcon-core/packages/ras_example_pkg_2)
+[3.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/src/ras2_topics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_topics build --build-base /home/alex/ras2_ws/build/ras2_topics/build install --record /home/alex/ras2_ws/build/ras2_topics/install.log --single-version-externally-managed install_data
+[3.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/src/ras_example_pkg_1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras_example_pkg_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras_example_pkg_1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras_example_pkg_1 build --build-base /home/alex/ras2_ws/build/ras_example_pkg_1/build install --record /home/alex/ras2_ws/build/ras_example_pkg_1/install.log --single-version-externally-managed install_data
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/alex/ras2_ws/build/mobile_robot/build install --record /home/alex/ras2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data
+[3.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ras2_ws/src/ras2_services': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_services build --build-base /home/alex/ras2_ws/build/ras2_services/build install --record /home/alex/ras2_ws/build/ras2_services/install.log --single-version-externally-managed install_data
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics' for CMake module files
+[4.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/src/ras2_topics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_topics build --build-base /home/alex/ras2_ws/build/ras2_topics/build install --record /home/alex/ras2_ws/build/ras2_topics/install.log --single-version-externally-managed install_data
+[4.371s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics' for CMake config files
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics/lib'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics/bin'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics/lib/pkgconfig/ras2_topics.pc'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages'
+[4.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras2_topics', 'pythonpath')
+[4.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/pythonpath.ps1'
+[4.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/pythonpath.dsv'
+[4.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/hook/pythonpath.sh'
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_topics/bin'
+[4.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras2_topics)
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/package.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/package.dsv'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/package.sh'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/package.bash'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_topics/share/ras2_topics/package.zsh'
+[4.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras2_topics/share/colcon-core/packages/ras2_topics)
+[4.382s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1' for CMake module files
+[4.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/src/ras_example_pkg_1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras_example_pkg_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras_example_pkg_1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras_example_pkg_1 build --build-base /home/alex/ras2_ws/build/ras_example_pkg_1/build install --record /home/alex/ras2_ws/build/ras_example_pkg_1/install.log --single-version-externally-managed install_data
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1' for CMake config files
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1/lib'
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1/bin'
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1/lib/pkgconfig/ras_example_pkg_1.pc'
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1/lib/python3.12/site-packages'
+[4.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_example_pkg_1', 'pythonpath')
+[4.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/pythonpath.ps1'
+[4.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/pythonpath.dsv'
+[4.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/hook/pythonpath.sh'
+[4.388s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras_example_pkg_1/bin'
+[4.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_example_pkg_1)
+[4.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/package.ps1'
+[4.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/package.dsv'
+[4.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/package.sh'
+[4.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/package.bash'
+[4.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras_example_pkg_1/share/ras_example_pkg_1/package.zsh'
+[4.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras_example_pkg_1/share/colcon-core/packages/ras_example_pkg_1)
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services' for CMake module files
+[4.393s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services' for CMake config files
+[4.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/src/ras2_services' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_services build --build-base /home/alex/ras2_ws/build/ras2_services/build install --record /home/alex/ras2_ws/build/ras2_services/install.log --single-version-externally-managed install_data
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services/lib'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services/bin'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services/lib/pkgconfig/ras2_services.pc'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages'
+[4.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras2_services', 'pythonpath')
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/pythonpath.ps1'
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/pythonpath.dsv'
+[4.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/hook/pythonpath.sh'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/ras2_services/bin'
+[4.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras2_services)
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/package.ps1'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/package.dsv'
+[4.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/package.sh'
+[4.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/package.bash'
+[4.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/ras2_services/share/ras2_services/package.zsh'
+[4.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/ras2_services/share/colcon-core/packages/ras2_services)
+[4.404s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot' for CMake module files
+[4.405s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot' for CMake config files
+[4.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ras2_ws/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/alex/ras2_ws/build/mobile_robot/build install --record /home/alex/ras2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data
+[4.406s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot/lib'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot/bin'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot/lib/python3.12/site-packages'
+[4.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'pythonpath')
+[4.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/pythonpath.ps1'
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/pythonpath.dsv'
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/hook/pythonpath.sh'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ras2_ws/install/mobile_robot/bin'
+[4.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[4.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/package.ps1'
+[4.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/package.dsv'
+[4.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/package.sh'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/package.bash'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ras2_ws/install/mobile_robot/share/mobile_robot/package.zsh'
+[4.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ras2_ws/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[4.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.414s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.425s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.448s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ras2_ws/install/local_setup.ps1'
+[4.451s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/ras2_ws/install/_local_setup_util_ps1.py'
+[4.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ras2_ws/install/setup.ps1'
+[4.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ras2_ws/install/local_setup.sh'
+[4.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/ras2_ws/install/_local_setup_util_sh.py'
+[4.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ras2_ws/install/setup.sh'
+[4.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ras2_ws/install/local_setup.bash'
+[4.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ras2_ws/install/setup.bash'
+[4.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ras2_ws/install/local_setup.zsh'
+[4.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ras2_ws/install/setup.zsh'

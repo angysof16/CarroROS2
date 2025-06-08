@@ -1,0 +1,8 @@
+source;share/ras_example/hook/cmake_prefix_path.ps1
+source;share/ras_example/hook/cmake_prefix_path.dsv
+source;share/ras_example/hook/cmake_prefix_path.sh
+source;share/ras_example/local_setup.bash
+source;share/ras_example/local_setup.dsv
+source;share/ras_example/local_setup.ps1
+source;share/ras_example/local_setup.sh
+source;share/ras_example/local_setup.zsh

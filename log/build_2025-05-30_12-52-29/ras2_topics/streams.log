@@ -1,0 +1,16 @@
+[1.832s] Invoking command in '/home/alex/ras2_ws/src/ras2_topics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_topics build --build-base /home/alex/ras2_ws/build/ras2_topics/build install --record /home/alex/ras2_ws/build/ras2_topics/install.log --single-version-externally-managed install_data
+[2.269s] running egg_info
+[2.300s] writing ../../build/ras2_topics/ras_topics.egg-info/PKG-INFO
+[2.300s] writing dependency_links to ../../build/ras2_topics/ras_topics.egg-info/dependency_links.txt
+[2.300s] writing entry points to ../../build/ras2_topics/ras_topics.egg-info/entry_points.txt
+[2.301s] writing requirements to ../../build/ras2_topics/ras_topics.egg-info/requires.txt
+[2.301s] writing top-level names to ../../build/ras2_topics/ras_topics.egg-info/top_level.txt
+[2.364s] reading manifest file '../../build/ras2_topics/ras_topics.egg-info/SOURCES.txt'
+[2.365s] writing manifest file '../../build/ras2_topics/ras_topics.egg-info/SOURCES.txt'
+[2.365s] running build
+[2.366s] running build_py
+[2.366s] running install
+[2.377s] running install_lib
+[2.409s] running install_data
+[2.409s] error: can't copy 'resource/ras_topics': doesn't exist or not a regular file
+[2.447s] Invoked command in '/home/alex/ras2_ws/src/ras2_topics' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_topics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_topics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_topics build --build-base /home/alex/ras2_ws/build/ras2_topics/build install --record /home/alex/ras2_ws/build/ras2_topics/install.log --single-version-externally-managed install_data

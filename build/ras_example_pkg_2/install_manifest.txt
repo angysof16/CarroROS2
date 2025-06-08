@@ -1,0 +1,16 @@
+/home/alex/ras2_ws/install/ras_example_pkg_2/lib/ras_example_pkg_2/ras_node_cpp
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/package_run_dependencies/ras_example_pkg_2
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/parent_prefix_path/ras_example_pkg_2
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/ament_prefix_path.sh
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/ament_prefix_path.dsv
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/path.sh
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/environment/path.dsv
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.bash
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.sh
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.zsh
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/local_setup.dsv
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.dsv
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ament_index/resource_index/packages/ras_example_pkg_2
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/cmake/ras_example_pkg_2Config.cmake
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/cmake/ras_example_pkg_2Config-version.cmake
+/home/alex/ras2_ws/install/ras_example_pkg_2/share/ras_example_pkg_2/package.xml

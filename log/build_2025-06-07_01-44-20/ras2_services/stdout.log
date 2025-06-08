@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/ras2_services/ras2_services.egg-info/PKG-INFO
+writing dependency_links to ../../build/ras2_services/ras2_services.egg-info/dependency_links.txt
+writing entry points to ../../build/ras2_services/ras2_services.egg-info/entry_points.txt
+writing requirements to ../../build/ras2_services/ras2_services.egg-info/requires.txt
+writing top-level names to ../../build/ras2_services/ras2_services.egg-info/top_level.txt
+reading manifest file '../../build/ras2_services/ras2_services.egg-info/SOURCES.txt'
+writing manifest file '../../build/ras2_services/ras2_services.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages/ras2_services-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ras2_services/ras2_services.egg-info to /home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages/ras2_services-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/alex/ras2_ws/install/ras2_services/lib/ras2_services
+Installing server script to /home/alex/ras2_ws/install/ras2_services/lib/ras2_services
+writing list of installed files to '/home/alex/ras2_ws/build/ras2_services/install.log'

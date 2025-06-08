@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoider = mobile_robot.obstacle_avoider:main
+wifi_bridge = mobile_robot.wifi_bridge:main

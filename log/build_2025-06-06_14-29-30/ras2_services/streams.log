@@ -1,0 +1,22 @@
+[1.559s] Invoking command in '/home/alex/ras2_ws/src/ras2_services': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_services build --build-base /home/alex/ras2_ws/build/ras2_services/build install --record /home/alex/ras2_ws/build/ras2_services/install.log --single-version-externally-managed install_data
+[1.792s] running egg_info
+[1.809s] writing ../../build/ras2_services/ras2_services.egg-info/PKG-INFO
+[1.809s] writing dependency_links to ../../build/ras2_services/ras2_services.egg-info/dependency_links.txt
+[1.809s] writing entry points to ../../build/ras2_services/ras2_services.egg-info/entry_points.txt
+[1.810s] writing requirements to ../../build/ras2_services/ras2_services.egg-info/requires.txt
+[1.810s] writing top-level names to ../../build/ras2_services/ras2_services.egg-info/top_level.txt
+[1.843s] reading manifest file '../../build/ras2_services/ras2_services.egg-info/SOURCES.txt'
+[1.844s] writing manifest file '../../build/ras2_services/ras2_services.egg-info/SOURCES.txt'
+[1.845s] running build
+[1.845s] running build_py
+[1.845s] running install
+[1.851s] running install_lib
+[1.868s] running install_data
+[1.869s] running install_egg_info
+[1.887s] removing '/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages/ras2_services-0.0.0-py3.12.egg-info' (and everything under it)
+[1.887s] Copying ../../build/ras2_services/ras2_services.egg-info to /home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages/ras2_services-0.0.0-py3.12.egg-info
+[1.888s] running install_scripts
+[2.003s] Installing client script to /home/alex/ras2_ws/install/ras2_services/lib/ras2_services
+[2.004s] Installing server script to /home/alex/ras2_ws/install/ras2_services/lib/ras2_services
+[2.004s] writing list of installed files to '/home/alex/ras2_ws/build/ras2_services/install.log'
+[2.077s] Invoked command in '/home/alex/ras2_ws/src/ras2_services' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/ras2_ws/build/ras2_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ras2_ws/install/ras2_services/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ras2_services build --build-base /home/alex/ras2_ws/build/ras2_services/build install --record /home/alex/ras2_ws/build/ras2_services/install.log --single-version-externally-managed install_data

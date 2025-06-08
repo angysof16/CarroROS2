@@ -1,0 +1,2 @@
+[console_scripts]
+publisher = ras_topics.publisher:main
